@@ -1,0 +1,19 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #192b40;
+  background: #f2f6fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 280px; }
+main { width: min(760px, 100%); margin: 10vh auto; padding: 32px; }
+.eyebrow { color: #2462ab; font-size: 0.75rem; font-weight: 750; letter-spacing: 0.15em; }
+h1 { font-size: clamp(2.25rem, 6vw, 4rem); line-height: 1.08; letter-spacing: -0.045em; }
+p { max-width: 60ch; line-height: 1.7; }
+code { background: #e0e9f3; padding: 2px 5px; border-radius: 4px; }
+button { margin-top: 20px; padding: 14px 24px; border: 0; border-radius: 8px; background: #245fa5; color: white; font: inherit; font-weight: 650; cursor: pointer; }
+button:hover { background: #194c87; }
+button:focus-visible { outline: 3px solid #192b40; outline-offset: 4px; }
+#message { color: #455a72; font-size: 0.9rem; }
