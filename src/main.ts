@@ -1,17 +1,10 @@
-document.getElementById("increment")?.addEventListener("click", () => {
-  const counterElement = document.getElementById("cnt");
-  if (counterElement) {
-    let count = parseInt(counterElement.textContent || "0", 10);
-    count++;
-    counterElement.textContent = count.toString();
-  }
-});
+function ClassDec(target: Function) {
+  console.log("classDecorator called");
+}
 
-document.getElementById("decrement")?.addEventListener("click", () => {
-  const counterElement = document.getElementById("cnt");
-  if (counterElement) {
-    let count = parseInt(counterElement.textContent || "0", 10);
-    count--;
-    counterElement.textContent = count.toString();
+@ClassDec
+class MyClass {
+  constructor() {
+    console.log("MyClass instance created");
   }
-});
+}
