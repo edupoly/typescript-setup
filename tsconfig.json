@@ -3,6 +3,7 @@
     "target": "ES2022",
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
+    "moduleDetection": "force",
     "moduleResolution": "Bundler",
     "types": ["vite/client"],
     "allowJs": true,
@@ -10,6 +11,7 @@
     "verbatimModuleSyntax": true,
     "noEmit": true,
     "strict": true,
+    "experimentalDecorators": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
